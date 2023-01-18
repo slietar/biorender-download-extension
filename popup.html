@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <style>
+      body {
+        width: 400px;
+        min-height: 200px;
+
+        margin: 0;
+      }
+
+      main {
+        display: flex;
+        height: 100%;
+      }
+
+      p {
+        margin: auto;
+      }
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        padding: 1rem 1rem 0 1rem;
+      }
+
+      .list > :last-child {
+        border-bottom: 1rem solid transparent;
+      }
+
+      .actions {
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+
+        margin-bottom: 0.4rem;
+      }
+
+      button {
+        flex-shrink: 0;
+      }
+
+      svg {
+        width: 100%;
+        height: auto;
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <main></main>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

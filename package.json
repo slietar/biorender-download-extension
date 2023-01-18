@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "esbuild popup.js --bundle --outfile=output/popup.js && cp -r icons popup.html manifest.json background.js output"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.2",
+    "htm": "^3.1.1",
+    "install": "^0.13.0",
+    "preact": "^10.11.3"
+  }
+}
